@@ -21,9 +21,9 @@ const EditableRow = ({
           onChange={handleEditFormChange}
         ></input> */}
         <select id="status" defaultValue={editFormData.status} onChange={handleEditFormChange}>
-          <option value="ordered">Ordered</option>
-          <option value="delivered">Delivered</option>
-          <option value="canceled">Canceled</option>
+          <option value="ordered">ordered</option>
+          <option value="delivered">delivered</option>
+          <option value="canceled">canceled</option>
         </select>
       </td>
       <td>
